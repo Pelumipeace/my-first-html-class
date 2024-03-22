@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: greenyellow;
+  height: 60px;
+  padding: 17px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.mama {
+  display: flex;
+  gap: 5px;
+  height: 300px;
+}
+
+.ogo {
+  width: 100%;
+  border: 5px solid purple;
+  background-image: url(../assets/hope.avif);
+  background-size: cover;
+}
+.sogo {
+  width: 100%;
+  border: 5px solid blue;
+  background-image: url(../assets/love\ image.avif);
+  background-size: cover;
+}
+.rogo {
+  width: 100%;
+  border: 5px dotted violet;
+  background-image: url(../assets/sea.avif);
+  background-size: cover;
+}
+.mogo {
+  width: 100%;
+  border: 5px dashed brown;
+  background-image: url(../assets/image\ 2.jpg);
+  background-size: cover;
+}
+.connector h1,
+h2,
+h3 {
+  font-size: 20px;
+}
+.container {
+  padding: 50px 30px 50px 30px;
+  text-decoration: list;
+}
+
+.myProduct {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 0px 30px;
+  margin-top: 30px;
+}
+
+.babyA,
+.babyB,
+.babyC,
+.babyD {
+  width: 100%;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
+.wale {
+  text-align: center;
+  font-size: 55px;
+}
+.sentence{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+.babyA:hover,
+.babyB:hover,
+.babyC:hover,
+.babyD:hover{
+  color: blue;
+}
+
+.reachbox{
+  padding: 40px 30px;
+  display: flex;
+  margin-top: 60px;
+  justify-content:space-between;
+  background-color: blueviolet;
+
+}
+.titlebox{
+  font-size: 40px;
+  font-weight: 500;
+}
+.titlebox,
+.formbox{
+  width: 100%;
+}
+
+.inputfield{
+  width: 70%;
+  padding: 20px 10px;
+  outline: none;
+
+}
+.inputfield::placeholder{
+  font-size: 20px;
+}
+
+.bottonbox{
+  margin-top: 20px;
+}
+.actionbotton{
+  padding: 6px 20px;
+  font-size: 15px;
+}
